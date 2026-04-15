@@ -1,19 +1,20 @@
 # Week 6
 
 ## Activity
-Recreated the Week 6 lab activity by checking ARP behaviour, examining IP-to-MAC address mapping, and observing how devices locate each other on the local network.
+In this week, I recreated the ARP activity by examining how devices on a local network resolve IP addresses to MAC addresses before communication takes place. I checked the neighbour or ARP table and observed how devices identify each other on the same network.
 
 ## Screenshots / Results
-- ARP table output
-- Topology screenshot
-- Command output showing neighbour mapping
-- Any packet capture or communication evidence
+- GNS3 topology showing the local network setup
+- Terminal output from `arp -a` or `ip neigh show`
+- Any packet capture or command output showing ARP behaviour
+- Connectivity test results between devices on the local network
 
 ## Key Concepts Learned
 - ARP process
-- IP and MAC address relationship
-- Local network discovery
-- Address resolution
+- Relationship between IP addresses and MAC addresses
+- Local network communication
+- Address resolution before packet delivery
+- Importance of checking neighbour information during troubleshooting
 
 ## Reflection
-In this activity, I explored how ARP allows devices to find the correct hardware address before communication can occur on a local network. I checked the ARP or neighbour table and reviewed how IP addresses were linked to MAC addresses. This made the communication process more practical and easier to understand from a troubleshooting perspective.
+During this activity, I focused on how ARP supports communication on a local network by matching IP addresses to MAC addresses. I checked the ARP or neighbour table and reviewed how devices discovered each other before data could be sent. This activity helped me understand the practical role of ARP and why it is important in diagnosing local network communication issues.
