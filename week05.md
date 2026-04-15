@@ -4,10 +4,10 @@
 In this week, I recreated the switching and VLAN activity by examining how traffic is managed within a switched network and how VLANs can be used to segment devices into different groups. I reviewed the network setup, checked the relevant configuration, and tested how segmentation affected communication.
 
 ## Screenshots / Results
-- GNS3 topology showing the switched network
-- VLAN configuration evidence
-- Terminal or command output related to switch or VLAN setup
-- Connectivity test results between devices
+- Topology showing the switched network and connected devices
+- VLAN configuration evidence used to show segmented network setup
+- Terminal or command output related to switch or VLAN configuration
+- Connectivity testing used to observe communication behaviour between devices
 
 ## Key Concepts Learned
 - Switching behaviour
