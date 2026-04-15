@@ -4,10 +4,10 @@
 In this week, I recreated the networking activity by configuring multiple hosts and testing communication between them. I reviewed how data travels across the network, checked the host settings, and used connectivity testing to confirm that the devices could communicate correctly.
 
 ## Screenshots / Results
-- GNS3 topology showing the connected hosts
-- Terminal output showing host IP configuration
-- Ping test results between hosts
-- Any command output used to confirm addressing or connectivity
+- Topology showing the connected Linux hosts in the network
+- `ip address show` output confirming host IP configuration
+- Ping testing used to confirm communication between hosts
+- Command output confirming successful addressing and connectivity checks
 
 ## Key Concepts Learned
 - Encapsulation and decapsulation
