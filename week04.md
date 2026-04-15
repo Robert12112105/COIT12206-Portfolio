@@ -1,19 +1,20 @@
 # Week 4
 
 ## Activity
-Recreated the Week 4 lab activity by examining routing behaviour, checking routing tables, and testing connectivity across different network segments.
+In this week, I recreated the routing activity by checking how packets move between different network segments. I examined the routing information available on the devices and used connectivity testing to confirm whether traffic could be forwarded correctly across the network.
 
 ## Screenshots / Results
-- Routing table output
-- Topology screenshot
-- Ping or traceroute results
-- Any evidence of successful forwarding
+- GNS3 topology showing the routed network setup
+- Terminal output from `ip route`
+- Ping test results between different network segments
+- Any traceroute or routing-related output used during testing
 
 ## Key Concepts Learned
 - Routing tables
 - Packet forwarding
-- Path selection
-- Cross-subnet communication
+- Communication between different network segments
+- Importance of correct route information
+- Verifying network paths through testing
 
 ## Reflection
-In this activity, I explored how routers make forwarding decisions using routing tables. I checked the available routes and used connectivity tests to confirm whether packets were reaching the correct destination. This task improved my understanding of how networks handle communication between different subnets.
+During this activity, I explored how routing allows communication between different parts of a network. I checked the routing information and used connectivity tests to see whether packets were reaching the correct destination. This helped me understand how routing decisions affect packet delivery and why correct route configuration is important in larger networks.
