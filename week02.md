@@ -1,19 +1,20 @@
 # Week 2
 
 ## Activity
-Recreated the Week 2 lab activity by working on host configuration, packet flow, and connectivity testing between devices in the network.
+In this week, I recreated the networking activity by configuring multiple hosts and testing communication between them. I reviewed how data travels across the network, checked the host settings, and used connectivity testing to confirm that the devices could communicate correctly.
 
 ## Screenshots / Results
-- Topology screenshot
-- IP configuration output
-- Ping testing results
-- Any relevant packet flow or communication evidence
+- GNS3 topology showing the connected hosts
+- Terminal output showing host IP configuration
+- Ping test results between hosts
+- Any command output used to confirm addressing or connectivity
 
 ## Key Concepts Learned
 - Encapsulation and decapsulation
-- Host-to-host communication
-- Importance of protocol layers
-- Connectivity verification
+- Communication between hosts in a network
+- Importance of correct IP addressing
+- Role of protocol layers in data transmission
+- Need to verify connectivity after configuration
 
 ## Reflection
-In this activity, I focused on how data moves between hosts across the network and how configuration affects successful communication. I used command outputs and testing results to confirm that devices could communicate correctly. This helped me better understand the TCP/IP communication process and the role of accurate configuration in reliable networking.
+During this activity, I focused on how devices communicate after being configured with the correct IP settings. I used command outputs and ping testing to confirm that the hosts were able to exchange data successfully. This task helped me understand how data moves through the network and why each configuration step must be checked carefully to avoid communication problems.
