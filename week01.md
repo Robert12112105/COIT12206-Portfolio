@@ -1,18 +1,20 @@
 # Week 1
 
 ## Activity
-Recreated the Week 1 lab activity in GNS3 by setting up the network topology and configuring the Linux host with a static IPv4 address.
+In this week, I recreated the basic network setup activity in GNS3. The topology consisted of Linux hosts connected through an Ethernet switch. I configured static IPv4 addresses on the hosts and checked that the interfaces were working correctly.
 
 ## Screenshots / Results
-- Topology screenshot
-- Terminal output showing IP configuration
-- Ping or connectivity check if used
+- GNS3 topology showing the Linux hosts and Ethernet switch
+- Terminal output from `ip address show`
+- Static IP configuration evidence
+- Ping test results between hosts
 
 ## Key Concepts Learned
-- Basic network setup
-- Static IP configuration
-- Difference between routing and switching
-- Importance of verifying interface configuration
+- Basic network topology setup in GNS3
+- Static IPv4 address configuration
+- Importance of correct host addressing
+- Difference between switching and routing at a basic level
+- Need to verify interface configuration before testing connectivity
 
 ## Reflection
-In this activity, I set up the required topology and configured the Linux host with a static IP address. I used the appropriate commands to verify the configuration and checked that the host interface was working correctly. This task helped me understand the importance of correct initial setup in networking and how small configuration mistakes can affect connectivity.
+During this activity, I set up the required topology in GNS3 and configured the Linux hosts with static IPv4 addresses. I used `ip address show` to verify the configuration and `ping` to test connectivity between hosts. This activity helped me understand how important correct IP configuration is in basic networking, and it also showed me that checking each step carefully makes troubleshooting easier.
