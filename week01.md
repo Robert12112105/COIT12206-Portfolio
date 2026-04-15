@@ -4,10 +4,10 @@
 In this week, I recreated the basic network setup activity in GNS3. The topology consisted of Linux hosts connected through an Ethernet switch. I configured static IPv4 addresses on the hosts and checked that the interfaces were working correctly.
 
 ## Screenshots / Results
-- GNS3 topology showing the Linux hosts and Ethernet switch
-- Terminal output from `ip address show`
-- Static IP configuration evidence
-- Ping test results between hosts
+- Topology consisting of Linux hosts connected through an Ethernet switch
+- `ip address show` output used to verify static IPv4 configuration
+- Static IP settings applied to the hosts through the Linux network configuration
+- Ping testing used to confirm host-to-host connectivity
 
 ## Key Concepts Learned
 - Basic network topology setup in GNS3
